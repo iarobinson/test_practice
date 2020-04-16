@@ -1,6 +1,12 @@
-<h1>Editing Section</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h1>Editing Section</h1>
 
-<%= render 'form', section: @section %>
+      <%= render 'form', section: @section %>
 
-<%= link_to 'Show', @section %> |
-<%= link_to 'Back', sections_path %>
+      <%= link_to 'Show', @section, class: "btn btn-block btn-primary" %>
+      <%= link_to 'Back', sections_path, class: "btn btn-block btn-primary" %>
+    </div>
+  </div>
+</div>
