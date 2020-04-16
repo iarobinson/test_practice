@@ -1,0 +1,12 @@
+Rails.application.routes.draw do
+  resources :sections
+  root to: 'pages#index'
+
+  resources :tests
+  resources :questions
+
+  resources :users
+  devise_for :users, controllers: {
+    sessions: 'users/sessions'
+  }
+end

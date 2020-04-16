@@ -1,0 +1,499 @@
+afoqt_va_2:
+  description: FORK is to EAT as PEN is to _____
+  option_1: INK
+  option_2: PENCIL
+  option_3: WRITE
+  option_4: LETTER
+  option_5: BOOK
+  answer: WRITE
+  section_id: 1
+
+afoqt_va_3:
+  description: BOOK is to CHAPTER as BUILDING is to _____
+  option_1: ELEVATOR
+  option_2: LOBBY
+  option_3: ROOF
+  option_4: STORY
+  option_5: WING
+  answer: STORY
+  section_id: 1
+
+afoqt_va_4:
+  description: ACTOR is to STAGE as _____
+  option_1: PATIENT is to DOCTOR
+  option_2: OUTSIDE is to BENCH
+  option_3: GARAGE is to CAR
+  option_4: TEACHER is to CLASSROOM
+  option_5: METER is to ELECTRICITY
+  answer: TEACHER is to CLASSROOM
+  section_id: 1
+
+afoqt_va_5:
+  description: TYRANT is to CRUELTY as _____
+  option_1: DRAWL is to SPEAKER
+  option_2: COMPILE is to DISSEMBLE
+  option_3: ACCOLADE is to AWARD
+  option_4: SYCOPHANT is to FLATTERY
+  option_5: WAX is to CANDLE
+  answer: SYCOPHANT is to FLATTERY
+  section_id: 1
+
+afoqt_va_6:
+  description: SLOTH is to LAZINESS as _____
+  option_1: GENTEEL is to VULGAR
+  option_2: INSOMNIAC is to SLEEPLESSNESS
+  option_3: HACKNEYED is to UNIQUE
+  option_4: ACCEDE is to RESPECT
+  option_5: CRYPT is to TOMB
+  answer: INSOMNIAC is to SLEEPLESSNESS
+  section_id: 1
+
+afoqt_va_7:
+  description: HALLOWED is to SACRED as _____
+  option_1: SOLDIER is to ARMY
+  option_2: GAMUT is to PROVINCIAL
+  option_3: LIBEL is to PRAISE
+  option_4: NOMADIC is to WANDERING
+  option_5: OBLIVIOUS is to KEEN
+  answer: NOMADIC is to WANDERING
+  section_id: 1
+
+afoqt_va_8:
+  description: DANCER is to ENSEMBLE as _____
+  option_1: YOGURT is to MILK
+  option_2: STUDENT is to CLASS
+  option_3: MOUNTAIN is to PRECIPICE
+  option_4: FLOCK is to SHEEP
+  option_5: DOODLE is to NOTEBOOK
+  answer: STUDENT is to CLASS
+  section_id: 1
+
+afoqt_va_9:
+  description: ANARCHIST is to DISORDER as _____
+  option_1: YAWN is to BOREDOM
+  option_2: MONTH is to YEAR
+  option_3: GOOD is to BEST
+  option_4: PACIFIST is to PEACE
+  option_5: CONSTELLATION is to STARS
+  answer: PACIFIST is to PEACE
+  section_id: 1
+
+afoqt_va_10:
+  description: DOCTOR is to HEALING as _____
+  option_1: PRISON is to GUARD
+  option_2: DINOSAURS is to PALEONTOLOGIST
+  option_3: AUTHOR is to WRITING
+  option_4: CLAP is to HANDS
+  option_5: PLANETS is to UNIVERSE
+  answer: AUTHOR is to WRITING
+  section_id: 1
+
+afoqt_va_11:
+  description: POLICE is to LAW as _____
+  option_1: LION is to DEN
+  option_2: BRUSH is to HAIR
+  option_3: CONDUCTOR is to ORCHESTRA
+  option_4: BOOK is to LIBRARY
+  option_5: CLERGY is to RELIGION
+  answer: CLERGY is to RELIGION
+  section_id: 1
+
+afoqt_va_12:
+  description: COOL is to FRIGID as _____
+  option_1: SPEAKER is to ASSEMBLY
+  option_2: BUG is to COLD
+  option_3: WATER is to BUCKET
+  option_4: DISLIKE is to DETEST
+  option_5: STUNT is to GROWTH
+  answer: DISLIKE is to DETEST
+  section_id: 1
+
+afoqt_va_13:
+  description: BREEZE is to GALE as _____
+  option_1: EYES is to FACE
+  option_2: MALEVOLENT is to CHARITABLE
+  option_3: HOSTILE is to ENEMY
+  option_4: SNOWFLAKE is to BLIZZARD
+  option_5: PUNGENT is to SMELL
+  answer: SNOWFLAKE is to BLIZZARD
+  section_id: 1
+
+afoqt_va_14:
+  description: CRUMB is to LOAF as _____
+  option_1: PAINTER is to CANVAS
+  option_2: PUDDLE is to OCEAN
+  option_3: SOUND is to MICROPHONE
+  option_4: PRIDE is to FALL
+  option_5: FEATHER is to QUILL
+  answer: SOUND is to MICROPHONE
+  section_id: 1
+
+afoqt_va_15:
+  description: CROISSANT is to PASTRY as _____
+  option_1: SCHOOL is to FISH
+  option_2: TREE is to PEACH
+  option_3: HAIKU is to POEM
+  option_4: KNIFE is to CUT
+  option_5: VENISON is to DEER
+  answer: HAIKU is to POEM
+  section_id: 1
+
+afoqt_va_16:
+  description: ROMANCE is to NOVEL as _____
+  option_1: BOON is to BLESSING
+  option_2: RAP is to MUSIC
+  option_3: CREDO is to IMMORAL
+  option_4: FRICTION is to SANDPAPER
+  option_5: DETERMINED is to HESITANT
+  answer: RAP is to MUSIC
+  section_id: 1
+
+afoqt_va_17:
+  description: TANKER is to SHIP as _____
+  option_1: INSECT is to ANT
+  option_2: MATRIARCH is to MOTHER
+  option_3: MINIVAN is to AUTOMOBILE
+  option_4: COW is to VEAL
+  option_5: DEGREE is to COLLEGE
+  answer: MINIVAN is to AUTOMOBILE
+  section_id: 1
+
+afoqt_va_18:
+  description: WHALE is to OCEAN as _____
+  option_1: CONGREGATION is to CROWD
+  option_2: POUND is to DOGCATCHER
+  option_3: CHURCH is to STEEPLE
+  option_4: COURT is to TENNIS
+  option_5: BEE is to HIVE
+  answer: BEE is to HIVE
+  section_id: 1
+
+afoqt_va_19:
+  description: PRISTINE is to UNSPOILED as _____
+  option_1: TAINTED is to CONTAMINATED
+  option_2: EASE is to TAXING
+  option_3: ARID is to DELUGED
+  option_4: CHAMPIONED is to ABASED
+  option_5: ANIMUS is to KINDNESS
+  answer: TAINTED is to CONTAMINATED
+  section_id: 1
+
+afoqt_va_20:
+  description: BIRTH is to LIFE as _____
+  option_1: RODENT is to SKUNK
+  option_2: GENTRY is to NOBILITY
+  option_3: PROLIFERATE is to CEASE
+  option_4: WINCE is to JOY
+  option_5: EXPOSURE is to INFECTION
+  answer: EXPOSURE is to INFECTION
+  section_id: 1
+
+afoqt_va_21:
+  description: MEDITATION is to RELAXATION as _____
+  option_1: ORDER is to CHAOS
+  option_2: SYMPTOMS is to BACTERIA
+  option_3: HONE is to WHET
+  option_4: SATIATION is to SATISFACTION
+  option_5: DEXTERITY is to ACCOMPLISHMENT
+  answer: SATIATION is to SATISFACTION
+  section_id: 1
+
+afoqt_va_22:
+  description: ISOLATION is to LONELINESS as _____
+  option_1: SHORTEN is to NIP
+  option_2: QUIET is to TACIT
+  option_3: PROMOTION is to ADVANCEMENT
+  option_4: MONOTONY is to HOMOGENOUS
+  option_5: RUSTIC is to CITY
+  answer: PROMOTION is to ADVANCEMENT
+  section_id: 1
+
+afoqt_va_23:
+  description: BATHING is to CLEANLINESS as _____
+  option_1: MEDICINE is to HARM
+  option_2: IMPRISONMENT is to PUNISHMENT
+  option_3: BANJO is to COUNTRY
+  option_4: BALLOON is to HELIUM
+  option_5: SADNESS is to BLUES
+  answer: IMPRISONMENT is to PUNISHMENT
+  section_id: 1
+
+afoqt_va_24:
+  description: SMILING is to HAPPINESS as _____
+  option_1: EXERCISE is to RUNNING
+  option_2: MOTORCYCLE is to TRAVEL
+  option_3: MILK is to BREAKFAST
+  option_4: SCOWLING is to DISPLEASURE
+  option_5: SHOUTING is to POWER
+  answer: SCOWLING is to DISPLEASURE
+  section_id: 1
+
+afoqt_va_25:
+  description: HANDS is to CLOCK as _____
+  option_1: PIANO is to MUSIC
+  option_2: JUSTICE is to COURT
+  option_3: LEGS is to BODY
+  option_4: ANNOYED is to FURIOUS
+  option_5: CARNIVORE is to TIGER
+  answer: LEGS is to BODY
+  section_id: 1
+
+afoqt_va_26:
+  description: TENSION is to STRESS as VIRUS is to _____
+  option_1: LIVING
+  option_2: DISEASE
+  option_3: BACTERIA
+  option_4: IMMUNITY
+  option_5: MORBIDITY
+  answer: DISEASE
+  section_id: 1
+
+afoqt_ar_01:
+  description: Tim weighs 243 pounds. If he loses 3 pounds per week, how much will he weigh in 7 weeks?
+  option_1: 211
+  option_2: 222
+  option_3: 231
+  option_4: 240
+  option_5: 247
+  answer: 222
+  section_id: 2
+
+afoqt_ar_02:
+  description: Grant reads three hardcover mysteries and four soft cover mysteries. He reads three times as many nonfiction books as he did mysteries. How many nonfiction books did Grant read?
+  option_1: 6
+  option_2: 9
+  option_3: 12
+  option_4: 18
+  option_5: 21
+  answer: 21
+  section_id: 2
+
+afoqt_ar_03:
+  description: A restaurant bill without tax and tip comes to $38.40. If a 15% tip is included after a 6% tax is added to the amount, how much is the tip?
+  option_1: $6.11
+  option_2: $5.76
+  option_3: $5.15
+  option_4: $2.30
+  option_5: $1.15
+  answer: $6.11
+  section_id: 2
+
+afoqt_ar_04:
+  description: If a car uses 1.5 gallons of gas every 30 miles, how many miles can be driven with 6 gallons of gas?
+  option_1: 100
+  option_2: 110
+  option_3: 120
+  option_4: 130
+  option_5: 140
+  answer: 120
+  section_id: 2
+
+afoqt_ar_05:
+  description: A blueprint has a scale of 3 feet per ½ inch. If a bathroom is 1 ½ inches x 2 inches, what are its actual dimensions?
+  option_1: 4 ½ feet x 6 feet
+  option_2: 6 feet x 7 ½ feet
+  option_3: 7 ½ feet x 9 feet
+  option_4: 8 ½ feet x 8 ½ feet
+  option_5: 9 feet x 12 feet
+  answer: 9 feet x 12 feet
+  section_id: 2
+
+afoqt_ar_06:
+  description: A rectangular bin 4 feet long, 3 feet wide, and 2 feet high is solidly packed with bricks whose dimensions are 8 inches by 4 inches by 2 inches. The number of bricks in the bin is
+  option_1: 54
+  option_2: 324
+  option_3: 648
+  option_4: 1072
+  option_5: 1296
+  answer: 648
+  section_id: 2
+
+afoqt_ar_07:
+  description: Sophie casts a shadow 5 feet long. Her father, who is 6 feet tall, casts a shadow 8 feet long. How tall is Sophie?
+  option_1: 6 feet 8 inches
+  option_2: 4 feet 10 inches
+  option_3: 4 feet 6 inches
+  option_4: 3 feet 9 inches
+  option_5: 2 feet 3 inches
+  answer: 3 feet 9 inches
+  section_id: 2
+
+afoqt_ar_08:
+  description: If 2.5 centimeters = 1 inch, and 36 inches = 1 yard, how many centimeters are in 1 yard?
+  option_1: 14
+  option_2: 25
+  option_3: 70
+  option_4: 80
+  option_5: 90
+  answer: 90
+  section_id: 2
+
+afoqt_ar_09:
+  description: A class of 198 recruits hail from Georgia, North Carolina, and South Carolina. If 1/3 are from Georgia and ¼ of the remainder are from North Carolina, how many of the recruits in the class are from South Carolina?
+  option_1: 198
+  option_2: 165
+  option_3: 132
+  option_4: 99
+  option_5: 66
+  answer: 99
+  section_id: 2
+
+afoqt_ar_10:
+  description: How many gallons of water will be contained in a rectangular tank that measures 2 feet in width, 3 feet in length, and 1 foot 8 inches in depth (assume 1 cu ft = 7.48 gal)?
+  option_1: 110
+  option_2: 75
+  option_3: 66.6
+  option_4: 55
+  option_5: 45
+  answer: 75
+  section_id: 2
+
+afoqt_ar_11:
+  description: A security guard must check a particular room every 45 minutes. If he first checks the area as he begins a 9-hour tour of duty, how many times will he have to check this storage area?
+  option_1: 13
+  option_2: 12
+  option_3: 11
+  option_4: 10
+  option_5: 5
+  answer: 23
+  section_id: 2
+
+afoqt_ar_12:
+  description: A sport’s fan spent a total of $385 on baseball tickets. If only $5 and $6 tickets were bought, and there was an equal number at each price, how many $5 tickets were bought?
+  option_1: 35
+  option_2: 47
+  option_3: 56
+  option_4: 72
+  option_5: 90
+  answer: 35
+  section_id: 2
+
+afoqt_ar_13:
+  description: The length of a rectangle is 3 times its width. If the perimeter of the rectangle is 48, what is its area?
+  option_1: 50
+  option_2: 55
+  option_3: 60
+  option_4: 62
+  option_5: 68
+  answer: 60
+  section_id: 2
+
+afoqt_ar_14:
+  description: A runner runs 5 miles per hour for 4 hours. If one inch equals 10 miles on a map, how far has the runner traveled on the map?
+  option_1: 1 inch
+  option_2: 1.5 inches
+  option_3: 1.8 inches
+  option_4: 2 inches
+  option_5: 2.3 inches
+  answer: 2 inches
+  section_id: 2
+
+afoqt_ar_15:
+  description: Lt Bartlett spent 2 hours doing pushups, 1 hour doing sprints, and 1.5 hours benching 400 lbs. What percentage of time was spent sprinting?
+  option_1: 44 percent
+  option_2: 37 percent
+  option_3: 33 percent
+  option_4: 22 percent
+  option_5: 11 percent
+  answer: 22 percent
+  section_id: 2
+
+afoqt_ar_16:
+  description: What is the volume of a container that is 40 feet long, 3 feet wide, and 24 inches wide?
+  option_1: 120
+  option_2: 200
+  option_3: 240
+  option_4: 300
+  option_5: 350
+  answer: 240
+  section_id: 2
+
+afoqt_ar_17:
+  description: A butcher made 22½ lbs of beef into hamburger and wrapped it in 1¼ lb packages. How many packages did he make?
+  option_1: 15
+  option_2: 16
+  option_3: 17
+  option_4: 18
+  option_5: 19
+  answer: 18
+  section_id: 2
+
+afoqt_ar_18:
+  description: If 15 cans of food are needed for 6 adults for 2 days, the number of cans needed for 4 adults for 5 days is
+  option_1: 10
+  option_2: 15
+  option_3: 20
+  option_4: 25
+  option_5: 30
+  answer: 25
+  section_id: 2
+
+afoqt_ar_19:
+  description: Many European cars feature speedometers that show kilometers per hour. If you are required to drive 500 miles, and you know that 1 kilometer is approximately 5/8 of a mile, how many kilometers would you cover in that journey?
+  option_1: 625
+  option_2: 800
+  option_3: 850
+  option_4: 1000
+  option_5: 1500
+  answer: 800
+  section_id: 2
+
+afoqt_ar_20:
+  description: The area of one circle is 4 times as large as a smaller circle with a radius of 3 inches. The radius of the larger circle is
+  option_1: 12 in
+  option_2: 9 in
+  option_3: 8 in
+  option_4: 6 in
+  option_5: 4 in
+  answer: 6 in
+  section_id: 2
+
+afoqt_ar_21:
+  description: A man deposited a check for $1000 to open an account. Shortly after that, he withdrew $400.00 and then $541.20. How much did he have left in his account?
+  option_1: $56.72
+  option_2: $58.80
+  option_3: $59.09
+  option_4: $60.60
+  option_5: $61.41
+  answer: $58.80
+  section_id: 2
+
+afoqt_ar_22:
+  description: School enrollment is 1700. Eighteen percent of students study French, 25% study Spanish, 12% study Italian, 15% study German, and the rest study no foreign language. Assuming that each student may only study one language, how many students do not study any foreign language?
+  option_1: 510
+  option_2: 520
+  option_3: 530
+  option_4: 540
+  option_5: 550
+  answer: 530
+  section_id: 2
+
+afoqt_ar_23:
+  description: Four men working together can create a trench in 42 days. They begin the job, but one man works only half days. How long will it take to complete the job?
+  option_1: 46 days
+  option_2: 48 days
+  option_3: 50 days
+  option_4: 52 days
+  option_5: 54 days
+  answer: 48 days
+  section_id: 2
+
+afoqt_ar_24:
+  description: A propane tank holds 20 gallons of gas. When the gauge reads ¼ full, how many gallons are needed to fill the tank?
+  option_1: 16
+  option_2: 15
+  option_3: 10
+  option_4: 5
+  option_5: 4
+  answer: 15
+  section_id: 2
+
+afoqt_ar_25:
+  description: The pilgrims set sail for Plymouth Rock, a distance of approximately 2800 miles, in 63 days. The average speed in miles per hour was closest to which one of the following?
+  option_1: ½
+  option_2: 1
+  option_3: 2
+  option_4: 3
+  option_5: 4
+  answer: 2
+  section_id: 2

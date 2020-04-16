@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <div class="card">
+        <div class="card-body">
+          <h1>Editing Test</h1>
+
+          <%= render 'form', test: @test %>
+
+          <%= link_to 'Show', @test, class: "btn btn-primary btn-block mt-2" %>
+          <%= link_to 'Back', tests_path, class: "btn btn-secondary btn-block" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

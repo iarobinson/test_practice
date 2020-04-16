@@ -1,0 +1,73 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+afoqt_verbal_analogies:
+  id: 1
+  title: Verbal Analogies
+  description: Measures your ability to reason and see relationships among words.
+  test_id: 1
+
+afoqt_arithmetic_reasoning:
+  id: 2
+  title: Arithmetic Reasoning
+  description: Measures your ability to use arithmetic to solve problems.
+  test_id: 1
+
+afoqt_word_knowledge:
+  id: 3
+  title: Word Knowledge
+  description: Measures your knowledge of words and their meanings.
+  test_id: 1
+
+afoqt_math_knowledge:
+  id: 4
+  title: Math Knowledge
+  description: Measures your knowledge of mathematical terms and principles.
+  test_id: 1
+
+afoqt_instrument_comprehension:
+  id: 5
+  title: Instrument Comprehension
+  description: Measures your ability to determine the position of an airplane in flight.
+  test_id: 1
+
+afoqt_block_counting:
+  id: 6
+  title: Block Counting
+  description: Measures your ability to “see into” a 3-dimensional pile of blocks.
+  test_id: 1
+
+afoqt_table_reading:
+  id: 7
+  title: Table Reading
+  description: Measures your ability to read a table quickly and accurately.
+  test_id: 1
+
+afoqt_aviation_information:
+  id: 8
+  title: Aviation Information
+  description: Measures your knowledge of aviation.
+  test_id: 1
+
+afoqt_general_science:
+  id: 9
+  title: General Science
+  description: With the release of Form T, “General Science” was replaced with “Physical Science” and includes questions that focus on concepts...
+  test_id: 1
+
+afoqt_rotated_blocks:
+  id: 10
+  title: Rotated Blocks
+  description: This section will test your spatial ability by mentally visualizing objects and manipulating them in space.
+  test_id: 1
+
+afoqt_hidden_figures:
+  id: 11
+  title: Hidden Figures
+  description: Tests one's ability to see a simple figure among many complex figures. See sample questions for a detailed explanation.
+  test_id: 1
+
+afoqt_self_description_inventory:
+  id: 12
+  title: Self-Description Inventory
+  description: This section is a simple personality test. This section will not be counted in your AFOQT score.
+  test_id: 1

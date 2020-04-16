@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 mt-3 mb-3">
+
+      <% unless notice.nil? %>
+        <div class="alert alert-primary" role="alert">
+          <%= notice %>
+        </div>
+      <% end %>
+      <div class="card">
+        <div class="card-body">
+          <h1><%= @test.title %></h1>
+          <p>Description:</p>
+          <p><%= @test.description %></p>
+        </div>
+
+
+        <% if @test.sections.size > 0 %>
+          <div class="list-group list-group-flush">
+            <div class="list-group-item">
+              <strong>Sections:</strong>
+            </div>
+            <% @test.sections.each do |section| %>
+              <%= link_to section, class: "list-group-item list-group-item-action" do %>
+                <%= section.title %>
+                <span class="float-right">
+                  <%= pluralize section.questions.count, 'question' %>
+                </span>
+              <% end %>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+      <%= link_to 'Edit', edit_test_path(@test), class: "btn btn-block btn-primary mt-3" %>
+      <%= link_to 'All Tests', tests_path, class: "btn btn-block btn-primary" %>
+
+    </div>
+  </div>
+</div>

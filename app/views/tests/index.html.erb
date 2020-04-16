@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <p id="notice"><%= notice %></p>
+      <div class="card">
+        <div class="card-header">
+          <div class="row">
+            <div class="col-9">
+              <h1>Tests</h1>
+            </div>
+            <div class="col-3">
+              <%= link_to 'Create a New Test', new_test_path, class: "btn btn-block btn-primary" %>
+            </div>
+          </div>
+        </div>
+        <ul class="list-group list-group-flush">
+          <% @tests.each do |test| %>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-12">
+                  <h3><%= test.title %></h3>
+                  <p><%= test.description %></p>
+                </div>
+                <div class="col-12">
+                  <h3>Sections:</h3>
+                  <p><%= test.sections.count %></p>
+                </div>
+                <div class="col-4">
+                  <%= link_to 'Show', test, class: "btn btn-block btn-primary" %>
+                </div>
+                <div class="col-4">
+                  <%= link_to 'Edit', edit_test_path(test), class: "btn btn-block btn-success" %>
+                </div>
+                <div class="col-4">
+                  <%= link_to 'Destroy', test, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-block btn-danger" %>
+                </div>
+              </div>
+            </li>
+          <% end %>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

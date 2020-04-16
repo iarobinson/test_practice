@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 mt-3 mb-3">
+
+      <% unless notice.nil? %>
+        <div class="alert alert-primary" role="alert">
+          <%= notice %>
+        </div>
+      <% end %>
+
+      <div class="card my-3">
+        <div class="card-body">
+
+          <p>
+            <strong>Test Title:</strong>
+            <%= @section.test.title %>
+          </p>
+          <p>
+            <strong>Section Title:</strong>
+            <%= @section.title %>
+          </p>
+
+          <p>
+            <strong>Description:</strong>
+            <%= @section.description %>
+          </p>
+
+          <% if @section.questions.size > 0 %>
+            <p><strong>Questions (<%= @section.questions.size %>):</strong></p>
+            <% @section.questions.each_with_index do |question, index| %>
+              <p><%= index + 1 %>. <%= question.description %></p>
+              <div class="hidden">
+                Answer: <%= question.answer %>
+              </div>
+              <%= link_to "#", class: "btn btn-block btn-primary" do %>
+                  A. <%= question.option_1 %>
+              <% end %>
+              <%= link_to "#", class: "btn btn-block btn-primary" do %>
+                  B. <%= question.option_2 %>
+              <% end %>
+              <%= link_to "#", class: "btn btn-block btn-primary" do %>
+                  C. <%= question.option_3 %>
+              <% end %>
+              <%= link_to "#", class: "btn btn-block btn-primary" do %>
+                  D. <%= question.option_4 %>
+              <% end %>
+              <%= link_to "#", class: "btn btn-block btn-primary" do %>
+                E. <%= question.option_5 %>
+              <% end %>
+            <% end %>
+          <% end %>
+
+        </div>
+      </div>
+
+      <%= link_to 'Edit', edit_section_path(@section), class: "btn btn-block btn-primary" %>
+      <%= link_to 'Back', sections_path, class: "btn btn-block btn-primary" %>
+
+    </div>
+  </div>
+</div>

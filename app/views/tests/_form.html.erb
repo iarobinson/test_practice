@@ -1,0 +1,36 @@
+<%= form_with(model: test, local: true) do |form| %>
+  <% if test.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(test.errors.count, "error") %> prohibited this test from being saved:</h2>
+
+      <ul>
+      <% test.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.label :title %>
+    <%= form.text_area :title, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :description %>
+    <%= form.text_area :description, class: "form-control" %>
+  </div>
+
+  <% if test.sections.size > 0 %>
+    <label>Sections:</label>
+    <% test.sections.each do |section| %>
+      <%= link_to section, class: "btn btn-block btn-primary" do %>
+        <%= section.title %> - <%= section.questions.size %>
+      <% end %>
+    <% end %>
+  <% end %>
+
+  <div class="actions">
+    <%= form.submit class: "btn btn-block btn-success" %>
+  </div>
+<% end %>

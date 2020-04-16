@@ -1,0 +1,10 @@
+afoqt:
+  id: 1
+  title: Air Force Officer Qualifying Test
+  acronym: AFOQT
+  description: The US Air Force has long recognized the need for selecting the finest and most qualified individuals to join their officer ranks. Since 1953 the Air Force has relied on the AFOQT as one of many measures for determining overall officer potential.
+
+lsat:
+  title: Law School Admission Test
+  acronym: LSAT
+  description: The Law School Admission Test (LSAT) is a half-day standardized test administered seven times each year at designated testing centers throughout the world. The Law School Admission Council (LSAC) administers the LSAT for prospective law school candidates.
