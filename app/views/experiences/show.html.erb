@@ -1,0 +1,82 @@
+<div class="container">
+  <div class="row">
+
+    <div class="col-12">
+      <h1 class="text-center my-5"><%= @test.title %></h1>
+    </div>
+
+    <div class="col-md-4">
+      <div class="list-group" id="list-tab" role="tablist">
+        <% @test.sections.each_with_index do |section, index| %>
+          <a class="list-group-item list-group-item-action <%= ' active' if index == 0 %>" id="list-profile-<%= section.title.downcase.gsub(" ", "-") %>" data-toggle="list" href="#list-<%= section.title.downcase.gsub(" ", "-") %>" role="tab" aria-controls="profile">
+            <%= section.title %>
+            <span class="float-right">
+              Questions:
+              <%= section.questions.size %>
+            </span>
+          </a>
+        <% end %>
+      </div>
+      <%= link_to 'Quit and Fail Test', experiences_path, class: "btn btn-block btn-danger my-3" %>
+    </div>
+
+    <div class="col-md-8">
+      <div class="tab-content" id="nav-tabContent">
+        <% @test.sections.each_with_index do |section, index| %>
+          <div class="tab-pane fade<%= ' show active' if index == 0 %>"
+               id="list-<%= section.title.downcase.gsub(" ", "-") %>"
+               role="tabpanel"
+               aria-labelledby="list-<%= section.title.downcase.gsub(" ", "-") %>-list">
+
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-8">
+                    <h2><%= section.title %></h2>
+                    <p><%= section.description %></p>
+                    <p><%= section.duration_descrption if section.duration_descrption %></p>
+                  </div>
+                  <div class="col-4">
+                    <a class="btn btn-success btn-block btn-primary" data-toggle="collapse"
+                       href="#collapse<%= section.title.downcase.gsub(" ", "-") %>"
+                       role="button" aria-expanded="false"
+                       aria-controls="collapse<%= section.title.downcase.gsub(" ", "-") %>">
+                      Begin Test
+                    </a>
+
+                    <span id='timer <%= section.title.downcase.gsub(" ", "-") %>'>timer_space</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="collapse" id="collapse<%= section.title.downcase.gsub(" ", "-") %>">
+              <div class="card">
+                <ul class="list-group list-group-flush">
+                  <% section.questions.each_with_index do |question, index| %>
+                    <li class="list-group-item">
+                      <div class="my-3">
+                        <div class="col-12">
+                          <%= index + 1 %>. <%= question.description %>
+                        </div>
+                      </div>
+                      <div class="my-3" id="<%= section.title.downcase.gsub(" ", "-") + "-" + index.to_s %>">
+                        <%= link_to question.option_1, "#", class: "btn btn-block btn-primary", on_Click:"hideAndStore()" %>
+                        <%= link_to question.option_2, "#", class: "btn btn-block btn-primary", on_Click:"hideAndStore()" %>
+                        <%= link_to question.option_3, "#", class: "btn btn-block btn-primary", on_Click:"hideAndStore()" %>
+                        <%= link_to question.option_4, "#", class: "btn btn-block btn-primary", on_Click:"hideAndStore()" %>
+                        <%= link_to question.option_5, "#", class: "btn btn-block btn-primary", on_Click:"hideAndStore()" %>
+                      </div>
+                    </li>
+                  <% end %>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        <% end %>
+      </div>
+    </div>
+
+  </div>
+</div>

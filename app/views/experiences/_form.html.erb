@@ -1,0 +1,21 @@
+<%= form_with(model: experience, local: true) do |form| %>
+  <% if experience.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(experience.errors.count, "error") %> prohibited this experience from being saved:</h2>
+
+      <ul>
+        <% experience.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <%= form.hidden_field :pass, value: false %>
+  <%= form.hidden_field :grade, value: "none"  %>
+  <%= form.hidden_field :test_id, value: @test.id  %>
+  <%= form.hidden_field :user_id, value: @user.id  %>
+
+  <div class="actions">
+    <%= form.submit "Start the Test", class: "btn btn-block btn-primary" %>
+  </div>
+<% end %>

@@ -497,3 +497,254 @@ afoqt_ar_25:
   option_5: 4
   answer: 2
   section_id: 2
+
+afoqt_wk_1:
+  description: ADAMANT
+  option_1: Falsify
+  option_2: Discard
+  option_3: Enter
+  option_4: Inflexible
+  option_5: Petty
+  section_id: 3
+  answer: Inflexible
+
+afoqt_wk_2:
+  description: ALTERCATION
+  option_1: Defeat
+  option_2: Mockery
+  option_3: Robbery
+  option_4: Controversy
+  option_5: Irritation
+  section_id: 3
+  answer: Controversy
+
+afoqt_wk_3:
+  description: ASSENT
+  option_1: Acquire
+  option_2: Climb
+  option_3: Agreement
+  option_4: Emphasize
+  option_5: Participate
+  section_id: 3
+  answer: Agreement
+
+afoqt_wk_4:
+  description: ATTRITION
+  option_1: Give Up
+  option_2: Exhaust
+  option_3: Solve
+  option_4: Expand
+  option_5: Purify
+  section_id: 3
+  answer: Exhaust
+
+afoqt_wk_5:
+  description: AUTHENTIC
+  option_1: Detailed
+  option_2: Randomly
+  option_3: Genuine
+  option_4: Literary
+  option_5: Practical
+  section_id: 3
+  answer: Genuine
+
+afoqt_wk_6:
+  description: CONDUCIVE
+  option_1: Confusing
+  option_2: Cooperative
+  option_3: Precious
+  option_4: Energetic
+  option_5: Respectful
+  section_id: 3
+  answer: Cooperative
+
+afoqt_wk_7:
+  description: COUNTERACT
+  option_1: Criticize
+  option_2: Erode
+  option_3: Deceit
+  option_4: Retreat
+  option_5: Neutralize
+  section_id: 3
+  answer: Neutralize
+
+afoqt_wk_8:
+  description: DELETERIOUS
+  option_1: Revoke
+  option_2: Low
+  option_3: Mangle
+  option_4: Frail
+  option_5: Harmful
+  section_id: 3
+  answer: Harmful
+
+afoqt_wk_9:
+  description: DILATED
+  option_1: Cleared
+  option_2: Deceased
+  option_3: Graphic
+  option_4: Contradictive
+  option_5: Enlarged
+  section_id: 3
+  answer: Enlarged
+
+afoqt_wk_10:
+  description: FLEXIBLE
+  option_1: Flammable
+  option_2: Intercede
+  option_3: Pliable
+  option_4: Rigid
+  option_5: Separable
+  section_id: 3
+  answer: Pliable
+
+afoqt_wk_11:
+  description: FORTNIGHT
+  option_1: Two days
+  option_2: One night
+  option_3: Two weeks
+  option_4: One month
+  option_5: 7 hours
+  section_id: 3
+  answer: Two weeks
+
+afoqt_wk_12:
+  description: IMPARTIAL
+  option_1: Complete
+  option_2: Ignorant
+  option_3: Fair
+  option_4: Sincere
+  option_5: Watchful
+  section_id: 3
+  answer: Fair
+
+afoqt_wk_13:
+  description: INCIDENTAL
+  option_1: Casual
+  option_2: Unexpected
+  option_3: Infrequent
+  option_4: Necessary
+  option_5: Difficult
+  section_id: 3
+  answer: Unexpected
+
+afoqt_wk_14:
+  description: INDOLENT
+  option_1: Strong
+  option_2: Aware
+  option_3: Patient
+  option_4: Lazy
+  option_5: Rude
+  section_id: 3
+  answer: Lazy
+
+afoqt_wk_15:
+  description: NOTORIOUS
+  option_1: Annoying
+  option_2: Condemned
+  option_3: Large
+  option_4: Official
+  option_5: Famous
+  section_id: 3
+  answer: Famous
+
+afoqt_wk_16:
+  description: REBUFF
+  option_1: Forget
+  option_2: Snub
+  option_3: Recover
+  option_4: Polish
+  option_5: Ignore
+  section_id: 3
+  answer: Snub
+
+
+afoqt_wk_17:
+  description: SUCCINCT
+  option_1: Concise
+  option_2: Bliss
+  option_3: Helpless
+  option_4: Sweet
+  option_5: Loud
+  section_id: 3
+  answer: Concise
+
+afoqt_wk_18:
+  description: SULLEN
+  option_1: Angry
+  option_2: Austere
+  option_3: Happy
+  option_4: Tortured
+  option_5: Sulky
+  section_id: 3
+  answer: Sulky
+
+afoqt_wk_19:
+  description: SYMPTOM
+  option_1: Test
+  option_2: Couch
+  option_3: Edifice
+  option_4: Sign
+  option_5: Denture
+  section_id: 3
+  answer: Sign
+
+afoqt_wk_20:
+  description: TEDIOUS
+  option_1: Brief
+  option_2: Disconnected
+  option_3: Simple
+  option_4: Dull
+  option_5: Surprising
+  section_id: 3
+  answer: Dull
+
+afoqt_wk_21:
+  description: TERSE
+  option_1: Faulty
+  option_2: Unite
+  option_3: Recall
+  option_4: Utility
+  option_5: Pointed
+  section_id: 3
+  answer: Pointed
+
+afoqt_wk_22:
+  description: TRIVIAL
+  option_1: Distress
+  option_2: Petty
+  option_3: Teamwork
+  option_4: End
+  option_5: Abnormal
+  section_id: 3
+  answer: Petty
+
+afoqt_wk_23:
+  description: VERIFY
+  option_1: Confirm
+  option_2: Vague
+  option_3: Seed
+  option_4: Question
+  option_5: Explain
+  section_id: 3
+  answer: Confirm
+
+afoqt_wk_24:
+  description: COROLLARY
+  option_1: Conclusion
+  option_2: Watchful
+  option_3: Trespass
+  option_4: Levitate
+  option_5: Bully
+  section_id: 3
+  answer: Watchful
+
+afoqt_wk_25:
+  description: SUBSEQUENT
+  option_1: Precede
+  option_2: Lead
+  option_3: Encircle
+  option_4: Following
+  option_5: Unbridled
+  section_id: 3
+  answer: Following

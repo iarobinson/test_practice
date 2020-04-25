@@ -1,73 +1,92 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
 afoqt_verbal_analogies:
   id: 1
   title: Verbal Analogies
   description: Measures your ability to reason and see relationships among words.
+  duration_descrption: You will be given 8 minutes to answer 25 questions.
+  duration_in_minutes: 8
   test_id: 1
 
 afoqt_arithmetic_reasoning:
   id: 2
   title: Arithmetic Reasoning
   description: Measures your ability to use arithmetic to solve problems.
+  duration_descrption: You will be given 29 minutes to answer 25 questions.
+  duration_in_minutes: 29
   test_id: 1
 
 afoqt_word_knowledge:
   id: 3
   title: Word Knowledge
   description: Measures your knowledge of words and their meanings.
+  duration_descrption: You will be given 5 minutes to answer 25 questions.
+  duration_in_minutes: 5
   test_id: 1
 
 afoqt_math_knowledge:
   id: 4
   title: Math Knowledge
   description: Measures your knowledge of mathematical terms and principles.
+  duration_descrption: You will be given 22 minutes to answer 25 questions.
+  duration_in_minutes: 22
   test_id: 1
 
 afoqt_instrument_comprehension:
   id: 5
   title: Instrument Comprehension
-  description: Measures your ability to determine the position of an airplane in flight.
+  description: Measures your ability to determine the position of an airplane in flight. The test requires a very fast pace.
+  duration_descrption: You will be given 5 minutes to answer 25 questions. You will have 12 seconds per question.
+  duration_in_minutes: 5
   test_id: 1
 
 afoqt_block_counting:
   id: 6
   title: Block Counting
-  description: Measures your ability to “see into” a 3-dimensional pile of blocks.
+  description: Measures your ability to 'see into' a 3-dimensional pile of blocks.
+  duration_descrption: You will be given 4.5 minutes to answer 30 questions.
+  duration_in_minutes: 4.5
   test_id: 1
 
 afoqt_table_reading:
   id: 7
   title: Table Reading
   description: Measures your ability to read a table quickly and accurately.
+  duration_descrption: You will be given 7 minutes to answer 40 questions.
+  duration_in_minutes: 7
   test_id: 1
 
 afoqt_aviation_information:
   id: 8
   title: Aviation Information
   description: Measures your knowledge of aviation.
+  duration_descrption: You will be given 8 minutes to answer 20 questions.
+  duration_in_minutes: 8
   test_id: 1
 
 afoqt_general_science:
   id: 9
   title: General Science
   description: With the release of Form T, “General Science” was replaced with “Physical Science” and includes questions that focus on concepts...
+  duration_descrption: You will be given 10 minutes to answer 20 questions.
+  duration_in_minutes: 10
   test_id: 1
 
 afoqt_rotated_blocks:
   id: 10
   title: Rotated Blocks
   description: This section will test your spatial ability by mentally visualizing objects and manipulating them in space.
+  duration_descrption: BLANK
   test_id: 1
 
 afoqt_hidden_figures:
   id: 11
   title: Hidden Figures
   description: Tests one's ability to see a simple figure among many complex figures. See sample questions for a detailed explanation.
+  duration_descrption: BLANK
   test_id: 1
 
 afoqt_self_description_inventory:
   id: 12
   title: Self-Description Inventory
   description: This section is a simple personality test. This section will not be counted in your AFOQT score.
+  duration_descrption: BLANK
   test_id: 1

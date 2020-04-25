@@ -25,13 +25,16 @@
                   <h3>Sections:</h3>
                   <p><%= test.sections.count %></p>
                 </div>
-                <div class="col-4">
+                <div class="col">
+                  <%= link_to 'Test', new_experience_path(test: test), class: "btn btn-block btn-success" %>
+                </div>
+                <div class="col">
                   <%= link_to 'Show', test, class: "btn btn-block btn-primary" %>
                 </div>
-                <div class="col-4">
-                  <%= link_to 'Edit', edit_test_path(test), class: "btn btn-block btn-success" %>
+                <div class="col">
+                  <%= link_to 'Edit', edit_test_path(test), class: "btn btn-block btn-secondary" %>
                 </div>
-                <div class="col-4">
+                <div class="col">
                   <%= link_to 'Destroy', test, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-block btn-danger" %>
                 </div>
               </div>

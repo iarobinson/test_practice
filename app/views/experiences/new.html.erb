@@ -1,0 +1,22 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class="card my-3">
+        <div class="card-body">
+          <h2>
+            <%= @test.title %> (<%= @test.acronym %>)
+          </h2>
+          <p><%= @test.description %></p>
+          <p>
+            The <%= @test.acronym %>
+            is made up of <%= pluralize(@test.sections.size, "section") %>
+            with varying time constraints.
+          </p>
+
+          <%= render 'form', experience: @experience %>
+          <%= link_to 'Back', tests_path, class: "btn btn-block btn-secondary my-3" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

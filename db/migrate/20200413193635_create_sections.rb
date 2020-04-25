@@ -3,6 +3,8 @@ class CreateSections < ActiveRecord::Migration[6.0]
     create_table :sections do |t|
       t.string :title
       t.text :description
+      t.text :duration_descrption
+      t.integer :duration_in_minutes
       t.belongs_to :test
 
       t.timestamps
